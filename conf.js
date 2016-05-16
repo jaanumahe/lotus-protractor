@@ -22,7 +22,7 @@ exports.config = {
       screenshotsFolder: 'images',
       takeScreenshotsOnlyOnFailures: false,
       fixedScreenshotName: true,
-      filePrefix: 'FundBox-Report',
+      filePrefix: 'sample-test-report-mc',
       consolidate: true,
       consolidateAll: true
 		}));
