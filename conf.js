@@ -3,8 +3,8 @@ var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 exports.config = {
   framework: 'jasmine2',
   //seleniumAddress: 'http://localhost:4444/wd/hub',
-  chromeDriver: 'node_modules/protractor/selenium/chromedriver',
-  seleniumServerJar: 'node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar',
+  chromeDriver: 'node_modules/protractor/node_modules/webdriver-manager/selenium/chromedriver_2.29',
+  seleniumServerJar: 'node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.4.0.jar',
   //seleniumServerJar: './selenium-server-standalone-2.50.1.jar',
   specs: ['spec/**/*.js'],
   idleTimeout: 120,

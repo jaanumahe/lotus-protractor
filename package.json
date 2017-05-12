@@ -4,20 +4,20 @@
   "description": "Protractor",
   "main": "index.js",
   "scripts": {
-    "install": "node node_modules/protractor/bin/webdriver-manager update"
+    "install": "node node_modules/.bin/webdriver-manager update"
   },
-  "author": "jaanumahe",
+  "author": "mahendran pandurangan",
   "license": "ISC",
   "devDependencies": {
     "colors": "^1.1.2",
     "custom-logger": "^0.3.1",
-    "grunt": "^1.0.1",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-protractor-runner": "^3.1.0",
-    "grunt-protractor-webdriver": "~0.2.5",
-    "grunt-sonar-runner": "^2.4.5",
-    "protractor": "~2.5.1",
-    "protractor-jasmine2-html-reporter": "~0.0.5",
+    "grunt": "",
+    "grunt-contrib-jshint": "",
+    "grunt-protractor-runner": "",
+    "grunt-protractor-webdriver": "^0.2.5",
+    "grunt-sonar-runner": "",
+    "protractor": "",
+    "protractor-jasmine2-html-reporter": "",
     "should": "^6.0.1",
     "xlsx-to-json": "^0.2.4"
   }
